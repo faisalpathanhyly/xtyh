@@ -1,0 +1,18 @@
+{
+  "course_id": "halo-overview",
+  "version": "0.1.0",
+  "status": "draft",
+  "description": "Question bank for Halo Overview. Full migration from Notion pending.",
+  "questions": [
+    {
+      "id": "halo-q001",
+      "question": "How would you explain Halo's purpose in simple terms?",
+      "answer": "Halo helps multifamily teams use connected marketing and operational data to make better decisions.",
+      "type": "Define & Support",
+      "chapter": 1,
+      "subchapter": "1.1",
+      "difficulty": "beginner",
+      "evaluation_criteria": ["Explains Halo as a connected data/reporting platform", "Connects Halo to multifamily decision-making"]
+    }
+  ]
+}

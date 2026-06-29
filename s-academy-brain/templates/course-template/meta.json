@@ -1,0 +1,22 @@
+{
+  "id": "course-id",
+  "title": "Course Title",
+  "description": "Short course description.",
+  "status": "draft",
+  "version": "0.1.0",
+  "owner": "Owner Name or Team",
+  "audience": ["Audience 1", "Audience 2"],
+  "source": {
+    "type": "notion | pdf | doc | original | mixed",
+    "name": "Source name"
+  },
+  "chapters": [
+    {"id": "ch1", "title": "Chapter Title", "path": "chapters/ch1.md"}
+  ],
+  "question_bank": "questions/q-bank.json",
+  "prompts": {
+    "system": "prompts/system.md",
+    "evaluation": "prompts/eval.md"
+  },
+  "tags": []
+}

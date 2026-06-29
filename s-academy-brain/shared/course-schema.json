@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "S.Academy Course Metadata Schema",
+  "type": "object",
+  "required": ["id", "title", "description", "status", "version", "owner", "audience", "chapters", "question_bank", "prompts"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "description": {"type": "string"},
+    "status": {"enum": ["draft", "in-review", "approved", "published", "archived"]},
+    "version": {"type": "string"},
+    "owner": {"type": "string"},
+    "audience": {"type": "array", "items": {"type": "string"}},
+    "source": {"type": "object"},
+    "chapters": {"type": "array"},
+    "question_bank": {"type": "string"},
+    "prompts": {"type": "object"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

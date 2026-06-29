@@ -1,0 +1,21 @@
+{
+  "course_id": "course-id",
+  "version": "0.1.0",
+  "status": "draft",
+  "questions": [
+    {
+      "id": "course-q001",
+      "sl_no": 1,
+      "question": "Question text goes here.",
+      "answer": "Expected answer goes here.",
+      "type": "Scenario | Define & Support | Validate & Justify",
+      "chapter": 1,
+      "subchapter": "1.1",
+      "difficulty": "beginner",
+      "evaluation_criteria": [
+        "Criterion 1",
+        "Criterion 2"
+      ]
+    }
+  ]
+}

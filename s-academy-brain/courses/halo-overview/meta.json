@@ -1,0 +1,25 @@
+{
+  "id": "halo-overview",
+  "title": "Halo Overview",
+  "description": "Beginner product enablement course explaining Halo, its purpose, reporting/data intelligence, and operational value for multifamily teams.",
+  "status": "draft",
+  "version": "0.1.0",
+  "owner": "Knowledge Management Practice",
+  "audience": ["Hyly employees", "client-facing teams", "product enablement teams"],
+  "source": {
+    "type": "notion_export",
+    "name": "Hyly.AI Knowledge Brain / Halo Overview"
+  },
+  "chapters": [
+    {"id": "ch1", "title": "Understanding Halo", "path": "chapters/ch1.md"},
+    {"id": "ch2", "title": "Halo Reporting and Data Intelligence", "path": "chapters/ch2.md"},
+    {"id": "ch3", "title": "Halo Use Cases and Workflows", "path": "chapters/ch3.md"},
+    {"id": "ch4", "title": "Operational Impact and Adoption", "path": "chapters/ch4.md"}
+  ],
+  "question_bank": "questions/q-bank.json",
+  "prompts": {
+    "system": "prompts/system.md",
+    "evaluation": "prompts/eval.md"
+  },
+  "tags": ["halo", "product-enablement", "data-intelligence", "multifamily"]
+}

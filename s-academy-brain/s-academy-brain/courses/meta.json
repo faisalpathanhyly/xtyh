@@ -1,0 +1,25 @@
+{
+  "repository": "s-academy-brain",
+  "version": "0.1.0",
+  "description": "Master index of S.Academy courses and learning assets.",
+  "courses": [
+    {
+      "id": "introduction-to-multifamily",
+      "title": "Introduction to Multifamily",
+      "status": "draft",
+      "version": "0.1.0",
+      "path": "courses/introduction-to-multifamily",
+      "source": "Notion Knowledge Brain",
+      "tags": ["multifamily", "industry", "beginner", "course"]
+    },
+    {
+      "id": "halo-overview",
+      "title": "Halo Overview",
+      "status": "draft",
+      "version": "0.1.0",
+      "path": "courses/halo-overview",
+      "source": "Notion Knowledge Brain",
+      "tags": ["halo", "product-enablement", "beginner", "course"]
+    }
+  ]
+}

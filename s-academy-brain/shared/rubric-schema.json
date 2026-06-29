@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "S.Academy Rubric Schema",
+  "type": "object",
+  "required": ["id", "name", "version", "criteria", "scale"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "version": {"type": "string"},
+    "criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "description"],
+        "properties": {
+          "id": {"type": "string"},
+          "label": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    },
+    "scale": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["score", "label", "description"],
+        "properties": {
+          "score": {"type": "number"},
+          "label": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    }
+  }
+}

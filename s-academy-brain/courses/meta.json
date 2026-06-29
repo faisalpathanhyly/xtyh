@@ -1,0 +1,27 @@
+{
+  "id": "introduction-to-multifamily",
+  "title": "Introduction to Multifamily",
+  "description": "Beginner course introducing the multifamily industry, renter demographics, property management, resident journey, technology, data analytics, and compliance considerations.",
+  "status": "draft",
+  "version": "0.1.0",
+  "owner": "Knowledge Management Practice",
+  "audience": ["Hyly employees", "new hires", "client-facing teams"],
+  "source": {
+    "type": "notion_and_pdf_export",
+    "name": "Hyly.AI Knowledge Brain / Introduction to Multifamily"
+  },
+  "chapters": [
+    {"id": "ch1", "title": "Introduction to the Multifamily Industry", "path": "chapters/ch1.md"},
+    {"id": "ch2", "title": "Demographic Trends in Multifamily Housing", "path": "chapters/ch2.md"},
+    {"id": "ch3", "title": "Property Management", "path": "chapters/ch3.md"},
+    {"id": "ch4", "title": "Understanding the Prospect and Resident Journey in Multifamily", "path": "chapters/ch4.md"},
+    {"id": "ch5", "title": "The Role of Data Analytics and Technology in Multifamily Property Management", "path": "chapters/ch5.md"},
+    {"id": "ch6", "title": "Legal and Compliance Considerations in Multifamily", "path": "chapters/ch6.md"}
+  ],
+  "question_bank": "questions/q-bank.json",
+  "prompts": {
+    "system": "prompts/system.md",
+    "evaluation": "prompts/eval.md"
+  },
+  "tags": ["multifamily", "industry", "property-management", "beginner"]
+}

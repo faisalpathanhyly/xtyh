@@ -1,0 +1,30 @@
+{
+  "course_id": "introduction-to-multifamily",
+  "version": "0.1.0",
+  "status": "draft",
+  "description": "Question bank migrated from the Introduction to Multifamily Notion/PDF source. Full migration pending.",
+  "questions": [
+    {
+      "id": "imf-q001",
+      "sl_no": 1,
+      "question": "A prospect wants a flexible stay instead of a year-long lease. Which rental type fits best?",
+      "answer": "Short-term rental community.",
+      "type": "Scenario",
+      "chapter": 1,
+      "subchapter": "1.1",
+      "difficulty": "beginner",
+      "evaluation_criteria": ["Identifies short-term rental as the correct rental type", "Keeps the answer concise and direct"]
+    },
+    {
+      "id": "imf-q002",
+      "sl_no": 2,
+      "question": "A renter says buying a home feels too expensive, so they prefer renting. What demand driver is this?",
+      "answer": "Rising cost of homeownership.",
+      "type": "Scenario",
+      "chapter": 1,
+      "subchapter": "1.1",
+      "difficulty": "beginner",
+      "evaluation_criteria": ["Connects renter preference to homeownership affordability", "Uses the expected concept clearly"]
+    }
+  ]
+}
